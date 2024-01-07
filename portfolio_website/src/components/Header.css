@@ -1,0 +1,9 @@
+.header_container {
+    background-image: url('./resourcen/DSC08772.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    
+}
