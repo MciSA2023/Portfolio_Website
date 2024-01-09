@@ -5,16 +5,18 @@ function Header() {
   
 
     return (
-    <header>
-      <section className='mutter_container'>
+  <header>
+    <section className='mutter_container'>
+      <div className="header_container">
         <div className='headbild_container'>
-          <img src="./resourcen/DSC08772.jpeg" alt="Header" />
+          <img className="bild"src={require ("./resourcen/DSC08772.jpeg")} alt="Header" />
         </div>  
-        
-            
-        
-      </section>
-    </header>
+        <div className='headtext_container'>
+          <h1 className="headertext">Welcome to my Space <br></br>Adhars Space</h1>
+        </div>  
+      </div>    
+    </section>
+</header>
     );
   }
   
