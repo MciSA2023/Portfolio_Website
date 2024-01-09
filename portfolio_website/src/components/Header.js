@@ -1,16 +1,14 @@
 import './Header.css';
-import TipStyleName from './undercomponents/tippeffekt';
 
 
 function Header() {
   
-  const highlightedLetters = ['D', 'e', 'i'];
 
     return (
     <header>
-      <section className='header_container'>
-        <div className='name_container'>
-          <TipStyleName name="<Willkommen>auf meiner Website/>" highlightedLetters={highlightedLetters} />
+      <section className='mutter_container'>
+        <div className='headbild_container'>
+          <img src="./resourcen/DSC08772.jpeg" alt="Header" />
         </div>  
         
             

@@ -1,27 +1,26 @@
-.header_container {
-    background-image: url('./resourcen/DSC08772.jpeg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.mutter_container {
     height: 100vh;
     width: 100vw;
-    display: flex;
 }
 
-.name_container {
+.headbild_container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     width: 100%;
-    height: 100%;
-    color: #ffffff;
+    height: 70vh;
+    background-color: aqua;
+    border-bottom-left-radius: 10vh;
+    border-bottom-right-radius: 10vh;
 }
 
-.name{
-    font-size: 5vw;
-    font-weight: 700;
-    margin-left: 5vw;
+.headbild {
+    width: 100%;
+    height: 100%;
+    
 }
+
+
 
 
