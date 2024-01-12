@@ -1,3 +1,8 @@
+@keyframes moveDown {
+    0% { transform: translateY(-50px); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
+}
+
 .topbar_container{
     background-color: rgba(0, 0, 0, 0);
     height: 7vh;
@@ -5,6 +10,7 @@
     position: fixed;
     display: flex;
     flex-direction: row;
+    animation: moveDown 2s ease-in-out;
 }
 
 .topbarleft_placer{
@@ -21,6 +27,7 @@
 .topbarright_placer{
     display: flex;
     flex-direction: row;
+    list-style: none;
     justify-content: flex-end;
     align-items: center;
     width: 50vw;
@@ -28,4 +35,14 @@
     gap: 2vw;
     color: #ffffff;
     margin-right: 2vw;
+}
+
+.topbarright_item {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s ease-in-out;
+}
+
+.topbarright_item:hover {
+    color: #000000; /* Ändere die Farbe nach Bedarf */
 }

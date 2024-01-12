@@ -7,12 +7,12 @@ function TopBar() {
         <div className = "topbarleft_placer">
             <div className="topbarleft_item">Logo</div>
         </div>
-        <div className="topbarright_placer">
-            <div className="topbarright_item">Home</div>
-            <div className="topbarright_item">About</div>
-            <div className="topbarright_item">Projects</div>
-            <div className="topbarright_item">Contact</div>
-        </div>
+        <nav class="topbarright_placer">
+        <a class="topbarright_item" href="#">Home</a>
+        <a class="topbarright_item" href="#">About</a>
+        <a class="topbarright_item" href="#">Projects</a>
+        <a class="topbarright_item" href="#">Contact</a>
+        </nav>
             
         
       </div>
