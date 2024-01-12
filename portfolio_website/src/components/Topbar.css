@@ -3,6 +3,8 @@
     100% { transform: translateY(0); opacity: 1; }
 }
 
+
+
 .topbar_container{
     background-color: rgba(0, 0, 0, 0);
     height: 7vh;
@@ -11,6 +13,7 @@
     display: flex;
     flex-direction: row;
     animation: moveDown 2s ease-in-out;
+
 }
 
 .topbarleft_placer{
