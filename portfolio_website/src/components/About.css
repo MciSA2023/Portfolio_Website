@@ -5,7 +5,6 @@
 }
 
 #about_mutter{
-    
     height: 100vh;
     width: 100vw;
     background-color: var(--schwarz);
@@ -103,7 +102,7 @@
 
 .begrueßung_schrift_3{
     font-size: 2rem;
-    color: orange;
+    color: var(--orange);
     margin-left: 2em;
 }
 
