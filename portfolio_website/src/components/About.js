@@ -31,13 +31,14 @@ return(
             </div>
 
             <div class="grid_item item4">
+              <p class="current_schrift_1">Currently I am studying <span class="current_schrift_2">Digital Business and Software Engenieering.</span> <br></br>
+              I enjoy doing <span class="current_schrift_3">Front-End developing.</span> </p>
               
             </div>
             <div class="grid_item item5">Instagram</div>
             <div class="grid_item item6">LinkedIn</div>
             <div class="grid_item item7">GitHub</div>
-            <div class="grid_item">Item 8</div>
-            <div class="grid_item">Item 9</div>
+            <div class="grid_item item8">Contact Me!</div>
         </div>
       </div>
 
