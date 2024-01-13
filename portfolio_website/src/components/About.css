@@ -1,10 +1,13 @@
+:root{
+    --schwarz: #000000;
+    --hellschwarz: #191919;
+}
 
 #about_mutter{
     
-    padding-top: 20vh;
     height: 100vh;
     width: 100vw;
-    background-color: black;
+    background-color: var(--schwarz);
     display: flex;
     flex: 1;
     flex-direction: column;
@@ -19,7 +22,7 @@
     height: 100%;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: var(--schwarz);
     border-radius: 10px;
 }
 
@@ -37,9 +40,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(29, 27, 27);
+    background-color: var(--hellschwarz);
     border-radius: 10px;
-    border: 1px solid white;
+    border: 1px solid ;
     transition: all 0.3s ease-in-out;
 }
 
@@ -47,13 +50,30 @@
     grid-row: span 2;
 }
 
+.about_bild_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 97%;
+    height: 98%;
+    border-radius: 7px;
+    border: 1px solid ;
+}
+
+.profil_bild{
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+    object-fit: cover;
+}
+
 .item2 {
     grid-column: span 2;
-    grid-row: span 2;
+    grid-row: span 1;
 }
 
 .item3 {
-    grid-column: span 3;
+    grid-column: span 1;
     grid-row: span 1;
 }
 
