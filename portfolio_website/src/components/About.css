@@ -1,6 +1,7 @@
 :root{
     --schwarz: #000000;
     --hellschwarz: #191919b0;
+    --orange: rgb(255, 153, 0);
 }
 
 #about_mutter{
@@ -42,7 +43,6 @@
     align-items: center;
     background-color: var(--hellschwarz);
     border-radius: 10px;
-    border: 1px solid ;
     transition: all 0.3s ease-in-out;
 }
 
@@ -103,29 +103,89 @@
 
 .begrueßung_schrift_3{
     font-size: 3rem;
-    color: rgb(255, 153, 0);
+    color: orange;
     margin-left: 2em;
 }
 
 .item3 {
     grid-column: span 1;
     grid-row: span 1;
+    display: flex;
+    flex: 1;
 }
 
 .item3:hover{
     transform: scale(1.1);
 }
 
+.location_schrift_1{
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+}
+
+.location_schrift_2{
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+}
+
+.location_schrift_3{
+    font-size: 1rem;
+    color: rgb(56, 56, 56);
+}
+
+.location_schrift_4{
+    font-size: 1rem;
+    color: var(--orange);
+}
+
+.location_schrift{
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+
+
 .item4 {
     display: flex;
     flex: 1;
     grid-column: span 1;
-    grid-row: span 4;
-    background-image: url("./resourcen/Bantobackground.jpg");
-    background-size: cover;
+    grid-row: span 3;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .item4:hover{
     transform: scale(1.1);
 }
 
+.item5 {
+    grid-column: span 1;
+    grid-row: span 1;
+    color: rgb(255, 255, 255);
+}
+
+.item5:hover{
+    transform: scale(1.1);
+}
+
+.item6 {
+    grid-column: span 1;
+    grid-row: span 1;
+    color: rgb(255, 255, 255);
+}
+
+.item6:hover{
+    transform: scale(1.1);
+}
+
+.item7 {
+    grid-column: span 1;
+    grid-row: span 1;
+    color: rgb(255, 255, 255);
+}
+
+.item7:hover{
+    transform: scale(1.1);
+}
