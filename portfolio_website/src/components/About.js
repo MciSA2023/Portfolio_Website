@@ -13,13 +13,17 @@ return(
             </div>
             <div class="grid_item item2">
              <p class="begrueßung_schrift" >
-              My Name ist Adhar Singh, I am 22 Years old and I am currently studying Digital Business Software Engenieering at the University at the MCI in Innsbruck.</p>
+                <span class="begrueßung_schrift_1">Hello <br></br> </span>
+                <span class="begrueßung_schrift_2">I am <br></br></span>
+                <span class="begrueßung_schrift_3"> Adhar</span>
+            </p>  
             </div>
             <div class="grid_item item3">Item 3</div>
             <div class="grid_item item4"></div>
             <div class="grid_item">Item 5</div>
             <div class="grid_item">Item 6</div>
             <div class="grid_item">Item 7</div>
+            <div class="grid_item">Item 8</div>
         </div>
       </div>
 

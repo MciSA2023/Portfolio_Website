@@ -84,10 +84,27 @@
 }
 
 .begrueßung_schrift{
-    font-size: 1rem;
-    color: white;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
     text-align: center;
     align-items: flex-end;
+}
+
+.begrueßung_schrift_1{
+    font-size: 2rem;
+    color: rgb(56, 56, 56);
+    margin-right: 2em;
+}
+
+.begrueßung_schrift_2{
+    font-size: 2.2rem;
+    color: rgb(210, 210, 210);
+}
+
+.begrueßung_schrift_3{
+    font-size: 3rem;
+    color: rgb(255, 153, 0);
+    margin-left: 2em;
 }
 
 .item3 {
@@ -100,8 +117,10 @@
 }
 
 .item4 {
+    display: flex;
+    flex: 1;
     grid-column: span 1;
-    grid-row: span 3;
+    grid-row: span 4;
     background-image: url("./resourcen/Bantobackground.jpg");
     background-size: cover;
 }
