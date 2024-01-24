@@ -40,10 +40,33 @@
     margin-right: 2vw;
 }
 
-.topbarright_item {
+.topbarright_list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50vw;
+    height: 100%;
+    gap: 2vw;
+    color: #ffffff;
+    margin-right: 2vw;
+}
+
+.topbarright_item{
     text-decoration: none;
     color: #ffffff;
     transition: color 0.3s ease-in-out;
+}
+
+.topbarright_item_link {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s ease-in-out;
+}
+
+.topbarright_item_link:hover {
+    color: var(--schwarz);
 }
 
 .topbarright_item:hover {
