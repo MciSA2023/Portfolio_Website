@@ -8,8 +8,9 @@ function Projects() {
       <div className="projects_container">
         <div className='projects_scrollview_container'>
             <div className='projects_scrollview_background'>
-                <Projekt />
-                <Projekt />
+                <Projekt imageUrl={require ("./resourcen/DSC09594.JPG")}/>
+                <Projekt imageUrl={require ("./resourcen/DSC09594.JPG")}/>
+                <Projekt imageUrl={require ("./resourcen/DSC09594.JPG")}/>
                 </div>
             </div>
         </div>
