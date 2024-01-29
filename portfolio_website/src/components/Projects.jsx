@@ -6,12 +6,10 @@ function Projects() {
   return (
     <section className="projects_mutter_container">
       <div className="projects_container">
-        <div className='projects_scrollview_container'>
-            <div className='projects_scrollview_background'>
-                <Projekt imageUrl={require ("./resourcen/DSC09594.JPG")}/>
-                <Projekt imageUrl={require ("./resourcen/DSC09594.JPG")}/>
-                <Projekt imageUrl={require ("./resourcen/DSC09594.JPG")}/>
-                </div>
+        <div className='projects_project_container'>
+                <Projekt preViewurl={require ("./resourcen/DSC09594.JPG")}/>
+                <Projekt preViewurl={require ("./resourcen/DSC09594.JPG")}/>
+                <Projekt preViewurl={require ("./resourcen/DSC09594.JPG")}/>
             </div>
         </div>
        

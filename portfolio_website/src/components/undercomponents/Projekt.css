@@ -1,8 +1,42 @@
+.projekt_karte {
+    height: 80%;
+    width: 20%;
+    margin: 2vw;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+  }
+  
+  .projekt_karte.open {
+    transform: scale(1.0); /* Beispiel: Vergrößere die offene Karte */
+    width: 100vw;
+    overflow: visible;
+    transition: 2s ease-out;
+  }
+  
+  .projekt_preview_container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .projekt_preview_container .projekt_bild {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+  
+
+
+
 .projekt_mutter_container{
     aspect-ratio: 16/9;
     height: 70%;
-    margin-left: 5%;
-    margin-top: 1%;
+    margin-top: 5vw;
     border-radius: 5px;
     background: rgb(60, 60, 60);
 }
@@ -91,6 +125,7 @@
     justify-content: flex-start;
     background-color: rgb(32, 32, 32);
     border-radius: 5px;
+    font-size: 10px;
 }
 
 .projekt_suchleiste_icon_container{
