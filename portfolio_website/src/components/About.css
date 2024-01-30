@@ -5,6 +5,8 @@
     --white: rgb(255,255,255);
 }
 
+
+
 #about_mutter{
     height: 100vh;
     width: 100vw;
@@ -81,8 +83,6 @@
 .item2 {
     grid-column: span 2;
     grid-row: span 1;
-    background-image: url("./resourcen/Bantobackground.jpg");
-    background-size: fill;
 }
 
 
@@ -162,6 +162,8 @@
 .current_schrift_1{
     font-size: 1.5rem;
     color: rgb(255, 255, 255);
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 .current_schrift_2{

@@ -1,7 +1,16 @@
+import React, { useRef, useEffect } from 'react';
 import './About.css';
+import './undercomponents/IconsItem';
+import IconsItem from './undercomponents/IconsItem';
+
+
+
+
 
 function About() {
 
+const imagePaths = [require ("./resourcen/DSC09594.JPG"),require ("./resourcen/DSC09594.JPG")]
+  
 return(
     <div class="about_mutter_container" id="about_mutter">
       <div class="about_grid_container">
@@ -12,11 +21,7 @@ return(
               </div>
             </div>
             <div class="grid_item item2">
-             <p class="begrueßung_schrift" >
-                <span class="begrueßung_schrift_1">Hello <br></br> </span>
-                <span class="begrueßung_schrift_2">I am <br></br></span>
-                <span class="begrueßung_schrift_3"> Adhar</span>
-            </p>  
+              <IconsItem images={imagePaths} />
             </div>
             <div class="grid_item item3">
             <div class="location_icon">

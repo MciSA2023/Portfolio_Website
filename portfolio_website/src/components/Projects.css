@@ -1,12 +1,14 @@
 
 .projects_mutter_container {
   height: 100vh;
-  background: rgb(0, 0, 0);
+  max-width: 100vw;
+  background: var(--schwarz);
   display: flex;
   flex-direction: column;
 }
 
 .projects_container {
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -15,9 +17,11 @@
 .projects_project_container {
   height: 100%;
   width: 100%;
+  gap: 20px;
   display: flex;
+  justify-content: end;
   flex-direction: row;
-  margin-left: 10vw;
+  margin: auto;
 }
 
 
