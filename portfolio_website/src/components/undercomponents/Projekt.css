@@ -8,12 +8,14 @@
     transition: 1s ease-in-out;
     border-width: 1px;
     border-style: solid;
-    border-color: var(--orange);
+    border-color: var(--black);
+    filter: blur(2px);
   }
   
   .projekt_karte:hover {
     transform: scale(1.1);
     transition: 1s ease-in-out;
+    filter: blur(0px);
   }
 
   .projekt_karte.open {
@@ -44,8 +46,7 @@
 
 .projekt_mutter_container{
     aspect-ratio: 16/9;
-    height: 70%;
-    margin-top: 5vw;
+    height: 100%;
     border-radius: 5px;
     background: rgb(60, 60, 60);
     transition: 2s ease-out;
