@@ -9,7 +9,14 @@ import IconsItem from './undercomponents/IconsItem';
 
 function About() {
 
-const imagePaths = [require ("./resourcen/DSC09594.JPG"),require ("./resourcen/DSC09594.JPG")]
+const imagePaths = [
+require ("./resourcen/Icons PNG/C.png"),require ("./resourcen/Icons PNG/C++.png"),
+require ("./resourcen/Icons PNG/git.png"),require ("./resourcen/Icons PNG/github.png"),
+require ("./resourcen/Icons PNG/javascript.png"),require ("./resourcen/Icons PNG/visual studio code.png"),
+
+
+
+]
   
 return(
     <div class="about_mutter_container" id="about_mutter">
